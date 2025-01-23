@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>SCT PATENT FORM</title>
+</head>
+<body>
+    <div class="title-div">
+        <h1>SCT IMST TRIVANDRUM</h1>
+    </div>
+    <div class = "stages">
+        <div class = "stage-button">
+            <span onclick="showForm(1)">STAGE 1</span>
+        </div>
+        <div class = "stage-button">
+            <span onclick="showForm(2)">STAGE 2</span>
+        </div>
+        <div class = "stage-button">
+            <span onclick="showForm(3)">STAGE 3</span>
+        </div>
+        <div class = "stage-button">
+            <span onclick="showForm(4)">STAGE 4</span>
+        </div>
+    </div>
+
+    <div  id="main1" class="hidden-div">
+        <form action="">
+            <div id="form">
+    <h2>Patent Application Filed</h2>
+    <div class="inner-form">
+        <div class="content-div">
+            <label for="filingDate">Filing Date:</label>
+            <input type="date" id="filingDate" name="filingDate">
+        </div>
+        <div class="number">
+            <div class="content-div">
+                <label for="referenceNumber">Reference Number</label>
+                <input type="text" id ="referenceNumber" name="referenceNumber">
+            </div>
+            <div class="content-div">
+                <label for="applicationNumber">Application Number</label>
+                <input type="text" id ="applicationNumber" name="applicationNumber">
+            </div>
+        </div>
+        <div class="content-div invention-div">
+            <label for="titleOfInvention">Title of Invention</label>
+            <input type="text" id ="titleOfInvention" name="titleOfInvention">
+        </div>
+        <div class="two-column-div">
+            <div class="left-column content-div">
+                <label for="inventors">Inventors</label>
+                <textarea type="text" id ="inventors" name="inventors"></textarea>
+            </div>
+            <div class="right-column">
+                <div class="content-div">
+                    <label for="applicant">Applicant</label>
+                    <input type="text" id ="applicant" name="applicant">
+                </div>
+                <div class="content-div">
+                    <label for="dropdown">Remarks</label>
+                    <select id="dropdown" name="dropdown">
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="submit">
+            <button>SUBMIT</button>
+        </div>
+    </div>
+    </div>
+    </form>
+</div>
+
+    <div id="main2"  class="hidden-div" hidden >
+        <form action="">
+            <div id="form">
+            <div id="form">
+    <h2>Patent Under Processing </h2>
+    <div class="inner-form">
+        <div class="content-div">
+            <label for="filingDate">Filing Date:</label>
+            <input type="date" id="filingDate" name="filingDate">
+        </div>
+        <div class="number">
+            <div class="content-div">
+                <label for="referenceNumber">Reference Number</label>
+                <input type="text" id ="referenceNumber" name="referenceNumber">
+            </div>
+            <div class="content-div">
+                <label for="applicationNumber">Application Number</label>
+                <input type="text" id ="applicationNumber" name="applicationNumber">
+            </div>
+        </div>
+        <div class="content-div invention-div">
+            <label for="titleOfInvention">Title of Invention</label>
+            <input type="text" id ="titleOfInvention" name="titleOfInvention">
+        </div>
+        <div class="two-column-div">
+            <div class="left-column content-div">
+                <label for="inventors">Inventors</label>
+                <textarea type="text" id ="inventors" name="inventors"></textarea>
+            </div>
+            <div class="right-column">
+                <div class="content-div">
+                    <label for="publicationDate">Publication Date:</label>
+                    <input type="date" id="publicationDate" name="publicationDate">
+                </div>
+                <div class="content-div">
+                    <label for="dropdown">Remarks</label>
+                    <select id="dropdown" name="dropdown">
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="submit">
+            <button>SUBMIT</button>
+        </div>
+    </div>
+    </div>
+    </div>
+    </form>
+</div>
+
+    <div  id="main3" class="hidden-div" hidden>
+        <form action="">
+            <div id="form">
+    <h2>Patent Abandoned Before Grant</h2>
+    <div class="inner-form">
+        <div class="content-div">
+            <label for="filingDate">Filing Date:</label>
+            <input type="date" id="filingDate" name="filingDate">
+        </div>
+        <div class="number">
+            <div class="content-div">
+                <label for="referenceNumber">Reference Number</label>
+                <input type="text" id ="referenceNumber" name="referenceNumber">
+            </div>
+            <div class="content-div">
+                <label for="applicationNumber">Application Number</label>
+                <input type="text" id ="applicationNumber" name="applicationNumber">
+            </div>
+        </div>
+        <div class="content-div invention-div">
+            <label for="titleOfInvention">Title of Invention</label>
+            <input type="text" id ="titleOfInvention" name="titleOfInvention">
+        </div>
+        <div class="two-column-div">
+            <div class="left-column content-div">
+                <label for="inventors">Inventors</label>
+                <textarea type="text" id ="inventors" name="inventors"></textarea>
+            </div>
+            <div class="right-column">  
+                <div class="content-div">
+                    <label for="dropdown">Remarks</label>
+                    <select id="dropdown" name="dropdown">
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="submit">
+            <button>SUBMIT</button>
+        </div>
+    </div>
+    </div>
+    </form>
+</div>
+
+    <div id="main4"  class="hidden-div" hidden  >
+        <form action="">
+            <div  id="form">
+    <h2>Patent Granted</h2>
+    <div class="inner-form">
+        <div class="content-div">
+            <label for="filingDate">Filing Date:</label>
+            <input type="date" id="filingDate" name="filingDate">
+        </div>
+        <div class="number">
+            <div class="content-div">
+                <label for="referenceNumber">Reference Number</label>
+                <input type="text" id ="referenceNumber" name="referenceNumber">
+            </div>
+            <div class="content-div">
+                <label for="applicationNumber">Application Number</label>
+                <input type="text" id ="applicationNumber" name="applicationNumber">
+            </div>
+        </div>
+        <div class="content-div invention-div">
+            <label for="titleOfInvention">Title of Invention</label>
+            <input type="text" id ="titleOfInvention" name="titleOfInvention">
+        </div>
+        <div class="number">
+            <div class="content-div">
+                <label for="referenceNumber">Patent Number</label>
+                <input type="text" id ="referenceNumber" name="referenceNumber">
+            </div>
+        <div class="content-div">
+            <label for="grantDate">Date of Grant:</label>
+            <input type="date" id="grantDate" name="grantDate">
+        </div>
+        </div>
+        <div class="two-column-div">
+            <div class="left-column content-div">
+                <label for="inventors">Inventors</label>
+                <textarea type="text" id ="inventors" name="inventors"></textarea>
+            </div>
+            <div class="right-column">
+                <div class="content-div">
+                    <label for="dropdown">Remarks</label>
+                    <select id="dropdown" name="dropdown">
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="submit">
+            <button>SUBMIT</button>
+        </div>
+    </div>
+    </div>
+    </form>
+</div>
+<script>
+        function showForm(stageNum) {
+         var div =   document.querySelectorAll('.hidden-div');
+         div.forEach(function(div){
+            div.hidden = true;
+         });
+         var displayDiv = document.getElementById('main'+stageNum);
+         displayDiv.hidden=false;
+        }
+</script>
+</body>
+</html>
